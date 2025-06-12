@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#viewer {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
+.info-panel {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 8px 12px;
+    background: rgba(0, 0, 0, 0.5);
+    color: orange;
+    font-family: Arial, sans-serif;
+    border-radius: 4px;
+    display: none;
+}
